@@ -1,0 +1,46 @@
+.wrapper .form_contact h1{
+    font-size: 20px;
+    color: #15633c;
+    margin-bottom: 30px;
+}
+.wrapper .form_contact h2.legend{
+    font-size: 20px;
+    font-weight: 400;
+    color: #444;
+}
+.wrapper .form_contact .f_contact label{
+    font-size: 14px;
+}
+em{
+    color: #EB340A;
+}
+.wrapper .form_contact .f_contact form p.required{
+    font-size: 11px;
+    text-align: right;
+    color: #EB340A;
+}
+.wrapper .form_contact .f_contact form button.k-button{
+    display: block;
+    border: 0;
+    background: #9ec801;
+    padding: 0 15px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+    line-height: 38px;
+    border-radius: 5px;
+    float: right;
+    transition: 0.4s;
+    margin-bottom: 20px;
+}
+.wrapper .form_contact .f_contact form button.k-button:hover {
+    background: rgba(158, 200, 1, 0.65);
+}
+.wrapper .form_contact .f_contact input:focus{
+    box-shadow: none;
+}
+.wrapper .form_contact .f_contact button:focus{
+    outline: none;
+}

@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Muli', sans-serif;
+}
+.navbar-dark .navbar-toggler {
+    color: rgb(0, 128, 0);
+    border-color: rgb(0, 128, 0);
+}
+/*css js*/
+.top-header.anmenu{
+    display: none;
+}
+.top-header.hienmenu{
+    display: block;
+}
+.anlogo{
+    display: none;
+}
+.hienlogo{
+    display: block;
+}
+.btn-button.an-k-btn-button{
+    margin-left: 341px;
+}
+.btn-button.hien-k-btn-button{
+    margin-left: 262px;
+}
+.top-search.an-search{
+    display: none;
+}
+.top-search.hien-search{
+    display: block;
+}
+.form_search.an-form{
+    display: none;
+}
+.form_search.hien-form{
+    display: block;
+}
+/*css header*/
+.wrapper .header .top-header{
+    background: #f0f0ed;
+    padding: 5px 0 0 0;
+}
+.wrapper .header .top-header .col-sm-6{
+   margin: 0;
+    padding: 0;
+}
+.wrapper .header .top-header .top-contact i{
+    font-size: 24px;
+    margin: 0 15px;
+}
+.wrapper .header .top-header .top-contact span{
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    margin-left: 5px;
+    color: #000000;
+    font-weight: 600;
+}
+.wrapper .header .top-header .top-link ul{
+    list-style-type: none;
+}
+.wrapper .header .top-header .top-link ul li{
+    display: inline-flex;
+    padding: 0 5px;
+    border-right: 1px solid gray;
+}
+.wrapper .header .top-header .top-link ul li a{
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'Muli', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+}
+/*css menu*/
+.wrapper .header .top-menu .k-bg{
+    background-color: white!important;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+.wrapper .header .top-menu ul.menu{
+    margin-left: 22px;
+}
+.wrapper .header .top-menu ul.menu li{
+    padding: 0 3px;
+}
+.wrapper .header .top-menu ul.menu a.nav-link{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    color: #000000;
+    font-family: 'Muli', sans-serif;
+    transition: 0.4s;
+}
+.wrapper .header .top-menu ul.menu li.active a.nav-link{
+    color: white;
+    background-color: #006400;
+    border-radius: 5px;
+}
+.wrapper .header .top-menu ul.menu a.nav-link:hover{
+   color: white;
+    background-color: #006400;
+    border-radius: 5px;
+}
+.wrapper .header .top-menu ul.menu .submenu{
+    display: none!important;
+    border: none;
+    border-top: 5px solid #006400;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+.wrapper .header .top-menu ul.menu .submenu i{
+   float: right;
+    display: inline-flex;
+}
+.wrapper .header .top-menu ul.menu .submenu a{
+    font-size: 12px;
+    font-family: 'Muli', sans-serif;
+    padding: 10px 15px;
+    transition: 0.4s;
+    text-transform: unset;
+}
+.wrapper .header .top-menu ul.menu li.hover-menu:hover .submenu{
+    display: block!important;
+}
+.wrapper .header .top-menu ul.menu .submenu a:hover{
+    background-color: #228B22!important;
+    color: white;
+}
+.btn-button{
+    background-color: #9ec801;
+    padding: 4px 7px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 262px;
+}
+.btn-button:focus{
+   outline: none;
+}
+.btn-button a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 14px;
+    vertical-align: middle;
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+}
+/*css form search*/
+.form_search input{
+    height: 38px;
+    background-color: #fff;
+    padding: 10px 15px;
+    color: #999;
+    font-family: 'Muli', sans-serif;
+    margin: 0;
+    font-size: 13px;
+    line-height: 20px;
+    border-radius: 20px 0 0 20px;
+    border: 3px solid #ccc;
+}
+.form_search input:focus{
+    box-shadow: none;
+    outline: none;
+}
+.form_search select{
+    background: #fff;
+    border: 3px solid #ccc;
+    height: 38px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-left: -8px;
+    font-size: 13px;
+    font-family: 'Muli', sans-serif;
+}
+.form_search select:focus{
+    outline: none;
+}
+.form_search button:focus{
+    outline: none;
+}
+.form_search button{
+    background: #fff;
+    border: 3px solid #ccc;
+    padding: 10px 15px;
+    border-left: none;
+    margin-left: -4px;
+    font-size: 13px;
+    border-radius: 0 20px 20px 0;
+    width: 40px;
+    height: 38px;
+}
+.form_search {
+    position: absolute;
+    left: 68%;
+    top: 98%;
+}

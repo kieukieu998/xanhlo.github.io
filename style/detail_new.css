@@ -1,0 +1,111 @@
+.wrapper .content-news .post_content .post_title h2 a{
+   color:rgba(0,0,0,.6);
+}
+ span button{
+    background: #4080ff;
+    border: 1px solid #4080ff;
+    border-radius: 3px;
+    font-size: 11px;
+    height: 20px;
+    padding: 0 6px;
+    color: white;
+
+}
+ b{
+    font-weight: normal;
+}
+.wrapper .content-news .post_content .post_title h1{
+    font-weight: 700;
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+}
+.wrapper .content-news .post_content .post_title  .form-intro{
+    background: #183966;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 3px;
+}
+.wrapper .content-news .post_content .post_title  .form-intro h2{
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+}
+.wrapper .content-news .post_content .post_title  .form-intro p{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+.wrapper .content-news .post_content .post_title  .form-intro form{
+    border: 3px solid #0088cc;
+    padding: 20px;
+    border-radius: 3px;
+    background: #eee;
+}
+.wrapper .content-news .post_content .post_title  .form-intro form button.k-button{
+    background-color: #0061C1;
+    color: #fff;
+    height: 30px;
+    margin: 10px 0 0 0;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.wrapper .content-news .post_content .post_title  .form-intro form button.k-button:focus{
+    outline: none;
+}
+.wrapper .content-news .post_content .post_title  .form-intro form .k-form input{
+    box-shadow: none;
+}
+.wrapper .content-news .post_content .post_title  .form-intro form .k-form{
+    margin-bottom: 0!important;
+}
+.wrapper .content-news .post_content .post_title  .form-intro form .k-form.item input{
+    background-color: #f1e5cd!important;
+    border: 1px dotted #ea8282;
+    text-transform: uppercase;
+    color: #555;
+    font-weight: bold;
+}
+
+.wrapper .content-news .post_content .post_title .xanhlobox{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: justify;
+    border: 3px solid #dcc088;
+    border-radius: 8px;
+    padding: 40px;
+}
+.wrapper .content-news .post_content .post_title .xanhlobox .img{
+    margin-bottom: 30px;
+}
+
+.wrapper .content-news .post_content .post_title .xanhlobox .img button{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-radius: 3px;
+    font-size: 11px;
+    height: 20px;
+    padding: 0 6px;
+    background: #1877f2;
+    border: 0;
+    color: white;
+    margin-left: 5px;
+}
+.wrapper .content-news .post_content .post_title .xanhlobox .img button:hover{
+    background-color: #0061c1;
+}
+.wrapper .content-news .post_content .post_title .xanhlobox .img button:focus{
+    outline: none;
+}
+.wrapper .content-news .post_content .post_title .xanhlobox p{
+    text-align: left;
+}
+.wrapper .content-news .post_content .post_title .xanhlobox .btn-k{
+    margin-top: 20px;
+}
+.wrapper .content-news .post_content .post_title .xanhlobox .btn-k button{
+    font-size: 19px;
+    margin-bottom: 10px;
+}

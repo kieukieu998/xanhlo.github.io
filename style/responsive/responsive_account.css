@@ -1,0 +1,42 @@
+@media screen and (max-width: 1920px) {
+    .wrapper .banner {
+        margin-top: 12vh;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .wrapper .banner {
+        margin-top: 7vh;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .wrapper .form_login .login .left p.title {
+        margin-bottom: 36%;
+    }
+    .wrapper .banner {
+        margin-top: -5vh;
+    }
+}
+@media screen and (max-width: 768px) {
+    .wrapper .form_login .login .left p.title {
+        margin-bottom: 43%;
+    }
+}
+@media screen and (max-width: 575px){
+
+}
+@media screen and (max-width: 480px) {
+    .wrapper .form_login .login .left p.title{
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 375px){
+    .wrapper .form_login .login.register h2.legend {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 360px){
+
+}
+@media screen and (max-width: 320px){
+
+}

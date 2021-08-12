@@ -1,0 +1,192 @@
+@media screen and (max-width: 1920px) {
+    .wrapper .banner {
+        margin-top: 16vh;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .wrapper .banner {
+        margin-top: 18vh;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .fixed-top{
+        position: unset;
+    }
+    .wrapper .banner {
+        margin-top: 0;
+    }
+    .btn-button {
+        margin-left: 50px;
+    }
+    .btn-button.hien-k-btn-button {
+        margin-left: 50px;
+    }
+    .wrapper .banner .form-baogia {
+        padding: 20px;
+    }
+    .wrapper .banner .form-baogia .k-button {
+        font-size: 12px;
+    }
+    .wrapper .banner .divider h3 {
+        font-size: 16px;
+    }
+    .wrapper .content .service .quote {
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+    .wrapper .content .service .quote p {
+        font-size: 14px;
+    }
+    .wrapper .new_post .highlights {
+        height: 395px;
+    }
+    .wrapper .new_post .highlights .right-highlights {
+        padding: 0 10px;
+    }
+    .wrapper .new_post .highlights .col-sm-3{
+        padding-right: 0;
+    }
+    .wrapper .new_post .highlights img{
+        width: 100%;
+    }
+    .wrapper .footer p.title-footer {
+        font-size: 8px;
+    }
+    .form_search {
+        position: absolute;
+        left: 59%;
+        top: 8%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .wrapper .banner .divider h3 {
+        font-size: 14px;
+        height: 48px;
+        margin-left: 20px;
+    }
+    .wrapper .content h2 {
+        font-size: 50px;
+    }
+    .wrapper .comment h3 {
+        font-size: 19px;
+    }
+    .wrapper .comment a.btn-link {
+        font-size: 10px;
+    }
+    .wrapper .comment .slide .item a {
+        font-size: 11px;
+    }
+    .wrapper .comment .slide .item p.no {
+        font-size: 11px;
+    }
+    .wrapper .comment .slide div.item {
+        padding: 10px;
+    }
+    .wrapper .new_post a h2 {
+        font-size: 14px;
+    }
+    .wrapper .new_post .highlights {
+        height: 576px;
+    }
+    .wrapper .footer .image-card ul li {
+        padding: 4px 0px 0 5px;
+    }
+    .footer p.title-footer {
+        font-size: 7.5px;
+    }
+    .btn-button {
+        margin-left: 0!important;
+    }
+
+    .wrapper .header .top-menu ul.menu li.nav-item {
+        text-align: center;
+    }
+    .form_search {
+        position: absolute;
+        left: 28%;
+        top: 36%;
+    }
+}
+@media screen and (max-width: 575px){
+    .form_search {
+        position: absolute;
+        left: 20%;
+        top: 56%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .form_search {
+        position: absolute;
+        left: 10%;
+        top: 54%;
+    }
+    .wrapper .item-divider{
+        text-align: center;
+    }
+    .wrapper .content h2 {
+        font-size: 35px;
+    }
+    .wrapper .content h3 {
+        font-size: 18px;
+    }
+    .wrapper .service .item-service{
+        margin-bottom: 10px;
+    }
+    .wrapper .footer .address{
+        text-align: center;
+    }
+    .wrapper .footer span {
+        font-size: 24px;
+    }
+
+    .wrapper .footer .end_footer {
+        text-align: center;
+    }
+    .wrapper .footer .image-card ul li {
+        margin-top: 5px;
+    }
+    .wrapper .header .top-header .text-right {
+        text-align: center!important;
+    }
+    .wrapper .header .top-header .item-text{
+        text-align: center;
+    }
+    .wrapper .banner .title h1 {
+        font-size: 24px;
+    }
+    .wrapper .banner .text-des strong {
+        font-size: 85px;
+    }
+    .wrapper .banner .text-des p {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 375px){
+
+}
+@media screen and (max-width: 360px){
+
+}
+@media screen and (max-width: 320px){
+    .form_search {
+        position: absolute;
+        left: 3%;
+        top: 75%;
+    }
+    .form_search input {
+        height: 30px;
+        padding: 5px;
+        font-size: 13px;
+    }
+    .form_search select {
+        height: 30px;
+        margin-left: -8px;
+        font-size: 13px;
+    }
+    .form_search button {
+        padding: 6px 15px;
+        font-size: 13px;
+        width: 20px;
+        height: 31px;
+    }
+}

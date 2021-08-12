@@ -1,0 +1,114 @@
+/*css banner*/
+.wrapper .banner{
+    background: url("../images/banner/nhmbanner1.png");
+    background-color: #008000 ;
+    padding: 68px 0px 0px 0px;
+    background-size: cover;
+    background-position: center center, center top;
+    /*margin-top: 18vh;*/
+}
+.wrapper .banner .form-baogia{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    font-family: 'Muli', sans-serif;
+}
+.wrapper .banner .form-baogia .form-group.k-form{
+    margin: 0;
+}
+.wrapper .banner .form-baogia .form-group.k-form input{
+    height: 30px;
+}
+.wrapper .banner .form-baogia .form-group.k-form input:focus{
+    box-shadow: none;
+}
+.wrapper .banner .form-baogia .k-button{
+    border: none;
+    border-radius: 3px;
+    padding: 7px 12px;
+    background-color: #0061c1;
+    font-size: 15px;
+    color: #fff;
+}
+
+.wrapper .banner .form-baogia h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.wrapper .banner .form-baogia label{
+    font-size: 13px;
+    font-weight: 600;
+}
+.wrapper .banner .form-baogia .form-check.k-form label{
+    font-size: 13px;
+    font-weight: 400;
+}
+.wrapper .banner .form-baogia .form-group.k-form.item input{
+    background-color: #f1e5cd;
+    font-weight: 700;
+    border: 1px dotted #ea8282 ;
+}
+::placeholder {
+    font-size: 13px;
+    color: #000;
+}
+.wrapper .banner .form-baogia .form-group.k-form{
+    margin: 0;
+}
+
+.wrapper .banner .title h1{
+    color: white;
+    display: inline-flex;
+    font-size: 28px;
+    font-family: 'Muli', sans-serif;
+    line-height: 55px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.wrapper .banner .text-des{
+    margin-top: 50px;
+}
+.wrapper .banner .text-des strong{
+    color: white;
+    font-size: 100px;
+    font-family: 'Muli', sans-serif;
+    line-height: 55px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.wrapper .banner .text-des p{
+    color: white;
+    font-size: 40px;
+    font-family: 'Muli', sans-serif;
+    line-height: 55px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.wrapper .form-right input{
+    width: 50%;
+    display: inline-flex;
+}
+.wrapper .form-right input:focus{
+    box-shadow: none;
+}
+.wrapper .banner .divider{
+    background: rgba(0, 89, 52, 0.74) none repeat scroll 0px 0px;
+    margin-top: 50px;
+}
+.wrapper .banner .divider .col-sm-9{
+    padding: 20px 0 0 0;
+}
+.wrapper .banner .divider h3{
+    font-size: 19px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Muli', sans-serif;
+    line-height: 1.5;
+}
+.wrapper .banner .divider p{
+    font-size: 14px;
+    color: #c9c9c9;
+    text-transform: unset;
+    line-height: 1.5;
+    font-family: 'Muli', sans-serif;
+    word-spacing: 2px;
+}

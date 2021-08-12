@@ -1,0 +1,54 @@
+.show-mobile{
+    display: none;
+}
+.show-destop{
+    display: block;
+}
+@media screen and (max-width: 1920px) {
+
+}
+@media screen and (max-width: 1366px) {
+
+}
+@media screen and (max-width: 1024px) {
+    .wrapper .banner .title h1 {
+        font-size: 40px;
+    }
+    .wrapper .banner .title h2 {
+        font-size: 24px;
+    }
+    .wrapper .setup .time-line.mobile {
+        height: 110px;
+    }
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 480px) {
+    .show-mobile{
+        display: block;
+    }
+    .show-destop{
+        display: none;
+    }
+    .wrapper .experience h2 {
+        font-size: 30.5px;
+    }
+    .wrapper .ready h2.title {
+        font-size: 30.5px;
+    }
+}
+@media screen and (max-width: 375px){
+
+}
+@media screen and (max-width: 360px){
+
+}
+@media screen and (max-width: 320px){
+    .wrapper .banner .title h1 {
+        font-size: 35px;
+    }
+    .wrapper .banner .title h2 {
+        font-size: 20px;
+    }
+}

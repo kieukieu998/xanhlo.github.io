@@ -1,0 +1,135 @@
+.wrapper .footer.login .address {
+    background-color: #121214;
+    padding: 10px 0 0 0;
+}
+.wrapper .banner.login{
+    background: none;
+}
+.wrapper .banner.login p{
+    background-color: #000;
+    color: #fff;
+    display: block;
+    padding: 12px 0;
+}
+.wrapper .banner.login ol.breadcrumb.k-color{
+    background-color: #000;
+    border-radius: unset;
+
+}
+.wrapper .banner.login ol.breadcrumb.k-color li a{
+    color: white;
+}
+.wrapper .banner.login ol.breadcrumb.k-color li a i{
+    font-size: 12px;
+    margin-left: 5px;
+}
+/*css form*/
+.wrapper .form_login{
+    padding: 5px 0 20px 0;
+}
+.wrapper .form_login h1{
+    color: #15633c;
+    font-size: 20px;
+    margin: 0 0 25px;
+    font-weight: 400;
+}
+.wrapper .form_login .login{
+    display: block;
+    border: 1px solid #ececec;
+    border-radius: 8px;
+    background: #fff;
+    border-top: 4px solid #15633c;
+    padding: 35px 25px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.08);
+}
+.wrapper .form_login .login .left h2{
+    font-size: 18px;
+    color: #444;
+    margin: 0 0 15px;
+}
+.wrapper .form_login .login .left p{
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+.wrapper .form_login .login .left button.k-button{
+    display: block;
+    border: 0;
+    background: #9ec801;
+    padding: 0 15px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+    line-height: 38px;
+    border-radius: 5px;
+    float: right;
+    transition: 0.4s;
+    margin-bottom: 20px;
+}
+.wrapper .form_login .login .left button.k-button:hover {
+    background: rgba(158, 200, 1, 0.65);
+}
+.wrapper .form_login .login .left button.k-button:focus{
+    outline: none;
+}
+
+.wrapper .form_login .login .right p.required{
+    font-size: 11px;
+    text-align: right;
+    color: #EB340A;
+}
+.wrapper .form_login .login .right a{
+    font-size: 13px;
+    color: #0061C1;
+}
+.wrapper .form_login .login .right .k-form input:focus{
+    box-shadow: none;
+}
+.wrapper .form_login .login .left p.title{
+    margin-bottom: 34%;
+}
+em{
+    color: #EB340A;
+}
+.wrapper .form_login .login.register h2.legend{
+    font-size: 16px;
+    color: #15633c;
+    margin: 0 0 15px;
+}
+.wrapper .form_login .login.register form button.k-button{
+    display: block;
+    border: 0;
+    background: #9ec801;
+    padding: 0 15px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+    line-height: 38px;
+    border-radius: 5px;
+    float: right;
+    transition: 0.4s;
+    margin-bottom: 20px;
+}
+.wrapper .form_login .login.register form button.k-button:hover {
+    background: rgba(158, 200, 1, 0.65);
+}
+.wrapper .form_login .login.register form p.required{
+    font-size: 11px;
+    text-align: right;
+    color: #EB340A;
+}
+.wrapper .form_login .register input:focus{
+    box-shadow: none;
+}
+.wrapper .form_login .register button:focus{
+    outline: none;
+}
+label{
+    font-size: 14px;
+    color: #505050;
+    font-weight: 600;
+}

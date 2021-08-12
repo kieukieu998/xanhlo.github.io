@@ -1,0 +1,109 @@
+.wrapper .footer .address{
+    background-color: #121214;
+    padding: 40px 0;
+}
+.wrapper .footer span{
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: inherit;
+    text-transform: unset;
+}
+.wrapper .footer .address .block-title{
+    margin-bottom: 20px;
+}
+.wrapper .footer .list-address ul{
+    list-style-type: none;
+}
+.wrapper .footer .list-address ul li{
+    padding: 10px 0;
+}
+.wrapper .footer .list-address ul li i {
+    color: rgb(0, 128, 0);
+}
+.wrapper .footer .list-address ul li i a{
+    color: white;
+    font-size: 13px;
+    font-family: 'Muli', sans-serif;
+    margin-left: 5px;
+}
+
+.wrapper .footer .list-address.k-adress ul li span{
+    margin-left: 5px;
+    color: #ccc;
+    font-size: 14px;
+    font-family: 'Muli', sans-serif;
+    line-height: 1.5;
+}
+.wrapper .footer .list-address.k-adress ul li i{
+    color: #cccccc;
+}
+.wrapper .footer .list-address.k-adress ul li i a{
+    font-size: 14px;
+}
+
+.wrapper .footer .map{
+    background-color: #777;
+    padding: 40px 0;
+}
+.wrapper .footer .end_footer{
+    padding: 25px 0 8px 0;
+    background-color: white;
+}
+.wrapper .footer .image-card ul{
+    list-style-type: none;
+    float: left;
+}
+.wrapper .footer .image-card ul li{
+    float: left;
+    padding: 0 7px;
+}
+.wrapper .footer p.title-footer{
+    color: #777777;
+    font-size: 13.5px;
+    font-family: 'Muli', sans-serif;
+    line-height: 40px;
+}
+/*het css cho footer*/
+.backtotop.show-backtotop1 {
+    opacity: 1;
+    bottom: 8px;
+    visibility: visible;
+}
+.backtotop.show-backtotop2 {
+    opacity: 1;
+}
+.backtotop.show-backtotop3 {
+    opacity: 1;
+}
+.backtotop.show-backtotop4 {
+    opacity: 1;
+}
+.backtotop.show-backtotop {
+    opacity: 1;
+}
+.backtotop {
+    width: 40px;
+    height: 43px;
+    border-radius: 5px 5px 0 0;
+    color: white;
+    background: #404040;
+    text-align: center;
+    font-size: 16px;
+    line-height: 42px;
+    position: fixed;
+    right: 10px;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.backtotop a i.fa{
+    text-decoration: none;
+    color: rgb(0, 128, 0);;
+}
+.backtotop:hover {
+    opacity: 0.8;
+}
